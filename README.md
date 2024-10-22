@@ -24,7 +24,7 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-```
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/types.h> 
@@ -79,14 +79,14 @@ else
 n=read(fd,buff,2000); 
 write(wfd,buff,n); 
 }
-```
+
 
 ## OUTPUT
 ![375197440-fed2e955-917f-453f-890a-e1da118b716a](https://github.com/user-attachments/assets/0045e290-b79a-4f7c-b7c0-4c956ce86f06)
 
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
-```
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <sys/types.h>
@@ -97,7 +97,7 @@ if (res == 0) printf("FIFO created\n");
 exit(EXIT_SUCCESS);
 }
 
-```
+
 ## OUTPUT
 ![375197584-bf5f4cd0-2dca-418c-9581-072a82c9a4d3](https://github.com/user-attachments/assets/a9ef1af7-2eb6-4f8b-9b31-3e652ac66934)
 
