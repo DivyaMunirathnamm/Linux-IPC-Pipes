@@ -85,7 +85,7 @@ write(wfd,buff,n);
 ![375197440-fed2e955-917f-453f-890a-e1da118b716a](https://github.com/user-attachments/assets/0045e290-b79a-4f7c-b7c0-4c956ce86f06)
 
 
-## C Program that illustrate communication between two process using named pipes using Linux API system calls
+## C Program that illustrate communication between two process using named pipes using Linux API system calls.
 
 #include <stdlib.h>
 #include <stdio.h>
